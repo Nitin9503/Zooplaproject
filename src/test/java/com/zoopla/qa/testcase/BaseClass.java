@@ -12,17 +12,17 @@ public class BaseClass {
 	@BeforeSuite
 	public void extension(){
 		System.out.println("will add extension");
-	}
+	}//returns extension
 	
 	@AfterSuite
 	public void removeextension(){
 		System.out.println("will remove extension");
-	}
+	}return removeextension
 	
 	@BeforeTest
 	public void homePageTitle() {
 		System.out.println("BaseClass verify homePageTitle");
-	}
+	}//return homePageTitle
 	
 	@AfterTest
 	public void logoutPageTitle() {
